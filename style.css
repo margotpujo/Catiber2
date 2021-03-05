@@ -1,0 +1,187 @@
+html{
+display: flex;}
+
+body{
+  margin: 30px 130px  ;
+  flex-direction: row;
+  font-family: 'Rubik', sans-serif;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.header{
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  margin-top: -50px;
+
+}
+
+.logo{
+  height: 50px;
+}
+
+.conteneurGlobal1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.conteneurGauche1{
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Titre1{
+  color :#f7c133;
+  font-size: 40px
+  font-weight: bold;
+}
+
+.texte{
+  font-size: 18px
+}
+
+.form-control{
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.btn-outline-warning{
+  border-radius: 20px;
+  width: 80%;
+}
+
+.btn-outline-warning:hover {
+  color: white;
+}
+
+.conteneurDroite1{
+  align-items: center;
+  width: 560px;
+  display: flex;
+  object-fit: contain;
+  }
+
+.imageDroite{
+height: 100%;
+padding: 30px;
+}
+
+.espace{
+  height: 100px;
+}
+
+.contener1
+{
+margin: 50px;
+}
+
+footer{
+  background-color: #f7c133;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.conteneurGauche2{
+  width: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-left: 130px;
+}
+
+.icons{
+width: 48px;
+height: 48px;
+margin-right: 20PX;
+}
+
+.row
+{ 
+    background-color: #023262;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+
+}
+
+.fa
+{
+    margin-top: 20px;
+    
+}
+
+.checked
+{
+    color: yellow;
+  }
+
+.titre
+{  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.testimonial
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#avatar1
+{
+    background-image:url("images/visage1.jpg");
+    background-position:center;
+    background-size:cover;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+#avatar2
+{
+    background-image:url("images/visage2.jpg");
+    background-position:center;
+    background-size:cover;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+#avatar3
+{
+    background-image:url("images/visage3.jpg");
+    background-position:center;
+    background-size:cover;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+#avatar4
+{
+    background-image:url("images/visage4.jpg");
+    background-position:center;
+    background-size:cover;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+
+
